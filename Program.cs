@@ -3,16 +3,19 @@ using Microsoft.Framework.Runtime;
 
 public class Program
 {
+	private readonly IApplicationEnvironment _env;
+	
 	public Program(IApplicationEnvironment env)
 	{
-		WriteLine("Class Program created!");
-		WriteLine(env.ApplicationName);
-		WriteLine(env.Version);
-		WriteLine(env.RuntimeFramework.FullName);
+		_env = env;
 	}
 	
 	public void Main()
 	{
 		WriteLine("Hello .NET World!");
+		
+		WriteLine($"App: {_env.ApplicationName}");
+        WriteLine($"Version: {_env.Version}");
+        WriteLine($"Framework: {_env.RuntimeFramework.FullName}");
 	}
 }
