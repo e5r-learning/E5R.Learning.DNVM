@@ -1,0 +1,9 @@
+{
+	"version": "1.0.0",
+	"description": "Aprendendo sobre DNVM (.NET Version Manager)",
+	"dependencies": {},
+	"frameworks": {
+		"dnx451": {},
+		"dnxcore50": {}
+	}
+}
