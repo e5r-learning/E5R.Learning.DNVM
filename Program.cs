@@ -15,7 +15,7 @@ public class Program
 		WriteLine("Hello .NET World!");
 		
 		WriteLine($"App: {_env.ApplicationName}");
-        WriteLine($"Version: {_env.Version}");
-        WriteLine($"Framework: {_env.RuntimeFramework.FullName}");
+		WriteLine($"Version: {_env.Version}");
+		WriteLine($"Framework: {_env.RuntimeFramework.FullName}");
 	}
 }
