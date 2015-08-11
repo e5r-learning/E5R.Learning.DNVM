@@ -1,9 +1,9 @@
-using System;
+using static System.Console;
 
 public class Program
 {
 	public static void Main()
 	{
-		Console.WriteLine("Hello .NET World!");
+		WriteLine("Hello .NET World!");
 	}
 }
